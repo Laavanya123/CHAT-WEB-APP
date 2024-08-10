@@ -1,0 +1,32 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#logout,#back{
+    font-size: 20px;
+}
+
+#logout{
+    float: right;
+}
+
+.input_div_message_page
+{
+    height: 25%;
+    background-image: linear-gradient(#d930f0, #cf6a1d); 
+	position: fixed;bottom: 0px;width: 100%;
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}

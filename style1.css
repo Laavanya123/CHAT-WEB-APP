@@ -1,0 +1,48 @@
+#left-half{
+    background-image: linear-gradient(#d930f0, #cf6a1d);
+    height: 910px;
+}
+
+#right-half{
+    height: 910px;
+}
+
+#logo{
+    border-radius: 15px;
+    margin-top: 160px;
+
+}
+
+#h1-left{
+color: white;
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 200px;
+}
+
+#h1-right{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    text-align: left;
+    margin-left: 20px;
+
+    }
+
+h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    #login_button{
+        margin-top: 80px;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    #user_name{
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }

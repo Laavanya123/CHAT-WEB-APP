@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Chat</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<div id = "top-half">
+<div class="container">
+    
+	<!--Add an id="logout"-->
+
+<button  onclick="logout();"  class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<center>
+        
+		<h1 class="header">	
+			<img height="150px" width="200px" src="logo.png">
+		</h1>
+		<h3 style="font-family: 'Open Sans', sans-serif; background-color: lightcyan; width: fit-content;" id="user_name" class="color_white"></h3>
+        <br>
+		<div style="font-family: 'Open Sans', sans-serif;" class="form-group input_div_room_page">
+			<label style="color: white;">#Add Room:</label>
+
+			<!-- create an inputbox with type="text" id="room_name" class="form-control" placeholder="Enter your #Room Name here..."-->
+		
+
+
+		</div>
+        <br><br>
+
+		<!--Add an event  onclick="addRoom();-->
+		<button style="font-family: 'Open Sans', sans-serif;" " class="btn btn-success">#Add Room</button>
+    </div>
+</div>
+
+    <div id="bottom-half">
+        <div class="container">
+		<h3 style="font-family: 'Open Sans', sans-serif;" class="color_white">#TRENDINGROOMS</h3>
+		<br>
+	<div style="font-family: 'Open Sans', sans-serif;" id="output"></div>
+</div>
+    </div>
+	</center>
+<script src="main2.js"></script>
+</body>
+</html>
